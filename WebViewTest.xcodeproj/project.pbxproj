@@ -14,6 +14,7 @@
 		AAE4FCDC2B97FAD4000D7C9E /* WebViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4FCDB2B97FAD4000D7C9E /* WebViewTestTests.swift */; };
 		AAE4FCE62B97FAD4000D7C9E /* WebViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4FCE52B97FAD4000D7C9E /* WebViewTestUITests.swift */; };
 		AAE4FCE82B97FAD4000D7C9E /* WebViewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4FCE72B97FAD4000D7C9E /* WebViewTestUITestsLaunchTests.swift */; };
+		AAE4FCF92B9816A1000D7C9E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4FCF82B9816A1000D7C9E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AAE4FCE12B97FAD4000D7C9E /* WebViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE4FCE52B97FAD4000D7C9E /* WebViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTestUITests.swift; sourceTree = "<group>"; };
 		AAE4FCE72B97FAD4000D7C9E /* WebViewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAE4FCF82B9816A1000D7C9E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				AAE4FCCA2B97FACE000D7C9E /* WebViewTestApp.swift */,
 				AAE4FCCC2B97FACE000D7C9E /* ContentView.swift */,
+				AAE4FCF82B9816A1000D7C9E /* WebView.swift */,
 				AAE4FCCE2B97FAD2000D7C9E /* Assets.xcassets */,
 				AAE4FCD02B97FAD2000D7C9E /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE4FCF92B9816A1000D7C9E /* WebView.swift in Sources */,
 				AAE4FCCD2B97FACE000D7C9E /* ContentView.swift in Sources */,
 				AAE4FCCB2B97FACE000D7C9E /* WebViewTestApp.swift in Sources */,
 			);
